@@ -1,0 +1,17 @@
+#footer {
+    background-color: #36383f;
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#footer .footer-section {
+    border: 1px solid #676767;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}

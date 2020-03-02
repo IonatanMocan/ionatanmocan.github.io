@@ -1,0 +1,79 @@
+    #content {
+    margin: 0;
+}
+
+#content > .content-wrapper {
+    padding-top: 44px;
+    display: grid;
+    grid-template-columns: 56% 41%;
+    grid-gap: 3%;
+    background: rgb(57,60,69);
+    background: linear-gradient(133deg, rgba(57,60,69,1) 0%, rgba(11,12,14,1) 100%);
+}
+
+#content .content-text-buttons-wrapper {
+    margin: 0px 55px;
+    padding-top: 12px;
+}
+
+#content .context-text-wrapper p.slogan {
+    font-weight: 300;
+    font-size: 38px;
+    color: #fff;
+    line-height: 42px;
+    margin-block-start: 0; /* why do I need this? Why does this property pop up by default? */
+    margin-block-end: -0.4em; /* why do I need this? Why does this property pop up by default? */
+}
+
+#content .context-text-wrapper span.bold {
+    font-weight: 400;
+}
+
+#content .context-text-wrapper p.description {
+    color: #b3b3b3;
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+#content button.sign-up {
+    background-color: #47cf73;
+    font-size: 32px;
+    padding: 16px 27px;
+    border-radius: 5px;
+    color: #000;
+    border: 0px;
+    font-weight: 400;
+}
+
+#content button.learn-more {
+    background-color: #000;
+    margin-left: 10px;
+    color: #fff;
+}
+
+#content > .content-wrapper > .content-image img {
+    width: 100%;
+    -webkit-box-shadow: 0px 6px 48px -8px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 6px 48px -8px rgba(0,0,0,0.87);
+    box-shadow: 0px 6px 48px -8px rgba(0,0,0,0.87);
+}
+
+#content > .content-wrapper > .content-image {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+#content .content-image span{
+    color: #fff;
+    font-size: 19px;
+    margin: 6px 0px 9px 13px;
+}
+
+#content .content-image span a{
+    color: #76daff;
+    text-decoration: none;
+}

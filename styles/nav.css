@@ -1,0 +1,87 @@
+#navigation-wrapper {
+    height: 82px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navigation-wrapper > .logo-menu-wrapper {
+    margin-left: 10px;
+    display: flex;
+}
+
+#navigation-wrapper > .logo-menu-wrapper > .logo-wrapper > img {
+    width: 175px;
+    margin: 4px 5px 0px 10px;
+}
+
+ .menu-wrapper {
+    margin-top: -23px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+}
+
+#navigation-wrapper .menu-wrapper > .explore {
+    color: #f4e180;
+    margin: 2px 0px 0px 4px;
+}
+
+#navigation-wrapper .menu-wrapper > .menu-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -14px;
+    margin-left: 5px;
+}
+
+#navigation-wrapper .menu-wrapper > .menu-links a {
+    margin-right: 17px;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+}
+
+#navigation-wrapper .menu-wrapper > .menu-links a.spark {
+    margin-left: 18px;
+    font-weight: 400;
+    color: #acacac;
+}
+
+#navigation-wrapper .menu-buttons-wrapper {
+    float: right;
+    margin: 0;
+    margin-right: 10px;
+}
+
+#navigation-wrapper .menu-buttons-wrapper button {
+    margin: -1px -5px 1px 21px;
+    s: ;color: #fff;    
+    background-color: #34383f;
+    border: 0px;
+    padding: 17px 22px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#navigation-wrapper .menu-buttons-wrapper button.create {
+    margin: 0px 0px;
+    padding: 17px 35px 18px 25px;
+    text-align: center;
+}
+
+#navigation-wrapper .menu-buttons-wrapper button.create i {
+    color: #4acc78;
+}
+
+
+#navigation-wrapper .menu-buttons-wrapper i.search {
+    color: #7b7d8b;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
